@@ -4,7 +4,7 @@ var APIKey = "d118af48e2c840083cd954156f94d357"
 var searchButton = document.getElementById("searchButton")
 var displayDat = document.getElementById("displayData")
 var latitude;
-var
+var longitude;
 
 function getApi() {
     var city = document.getElementById("citySearch").value
