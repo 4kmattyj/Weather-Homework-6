@@ -3,6 +3,8 @@ var APIKey = "d118af48e2c840083cd954156f94d357"
 //var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=imperial" + "&appid=" + APIKey;
 var searchButton = document.getElementById("searchButton")
 var displayDat = document.getElementById("displayData")
+var latitude;
+var
 
 function getApi() {
     var city = document.getElementById("citySearch").value
